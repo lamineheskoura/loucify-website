@@ -1,3 +1,0 @@
-- [x] Modify js/script.js to change ACCESS button click from redirect to toggle main content visibility
-- [x] Add smooth scroll to main content when revealed
-- [x] Remove broken parallax code from js/script.js
