@@ -31,14 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Parallax effect for hero background (optional)
-  window.addEventListener('scroll', function() {
-    const scrolled = window.pageYOffset;
-    const heroBg = document.getElementById('hero-bg');
-    if (heroBg) {
-      heroBg.style.transform = `translateY(${scrolled * 0.5}px)`;
-    }
-  });
+
 
   // Smooth scrolling for navigation links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
